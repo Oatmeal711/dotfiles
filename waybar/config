@@ -1,0 +1,30 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-right": ["battery", "network"],
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"]
+
+ },
+
+"battery": {
+  "format": "{capacity}%"
+ },
+
+"network": {
+  "format": "{essid} {signalStrength}%"
+  "format-connected": "{essid} {ip}",
+  "format-disconnected": "No Connection"
+ },
+
+"clock": {
+  "format": "%H:%M"
+ }
+
+"hyprland/workspaces": {
+  "label": "Workspaces:",
+  "format": "{name}",
+  "format-active": "{name}",
+  "format-urgent": "{name}!"
+ }
+}
